@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "Good Line ВАТС - Коллтрекинг layout",
+    "startedAt" : 1498201074370,
+    "endedAt" : 1498201074370,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 22,
+      "errors" : 8,
+      "warnings" : 0,
+      "total" : 30
+    },
+    "testId" : "1-good-line---layout",
+    "duration" : 0,
+    "failed" : true
+  } ]
+}

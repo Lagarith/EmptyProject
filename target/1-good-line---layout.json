@@ -1,0 +1,350 @@
+{
+  "testId" : "1-good-line---layout",
+  "name" : "Good Line ВАТС - Коллтрекинг layout",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check Good Line ВАТС - Коллтрекинг layout",
+      "status" : "error",
+      "time" : 1498201074370,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Header",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 24
+            },
+            "name" : "width 100% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 25
+            },
+            "name" : "height 68px",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 26
+            },
+            "name" : "inside body 0px top",
+            "highlight" : [ "header", "body" ]
+          } ]
+        }, {
+          "name" : "header-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 29
+            },
+            "name" : "height 100% of header/height",
+            "highlight" : [ "header-logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 30
+            },
+            "name" : "width 200px",
+            "highlight" : [ "header-logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 31
+            },
+            "name" : "centered horizontally inside header",
+            "highlight" : [ "header-logo", "header" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Authorization form",
+        "objects" : [ {
+          "name" : "loginform",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 37
+            },
+            "name" : "centered horizontally inside main-container",
+            "highlight" : [ "loginform", "main-container" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 38
+            },
+            "name" : "centered vertically inside main-container",
+            "errors" : [ "\"loginform\" is not centered vertically inside \"main-container\". Offset is 334px" ],
+            "highlight" : [ "loginform", "main-container" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 39
+            },
+            "name" : "width 258px",
+            "errors" : [ "\"loginform\" width is 320px instead of 258px" ],
+            "highlight" : [ "loginform" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 40
+            },
+            "name" : "height 302px",
+            "errors" : [ "\"loginform\" height is 363px instead of 302px" ],
+            "highlight" : [ "loginform" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 41
+            },
+            "name" : "below header 40 to 50 px",
+            "highlight" : [ "loginform", "header" ]
+          } ]
+        }, {
+          "name" : "loginform-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 44
+            },
+            "name" : "inside loginform 31px top left",
+            "highlight" : [ "loginform-title", "loginform" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 45
+            },
+            "name" : "text is \"Войти\"",
+            "errors" : [ "\"loginform-title\" text is \"ВОЙТИ\" but should be \"Войти\"" ],
+            "highlight" : [ "loginform-title" ]
+          } ]
+        }, {
+          "name" : "loginform-email-caption",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 48
+            },
+            "name" : "inside loginform 31px left",
+            "highlight" : [ "loginform-email-caption", "loginform" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 49
+            },
+            "name" : "below loginform-title 20 to 25 px",
+            "highlight" : [ "loginform-email-caption", "loginform-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 50
+            },
+            "name" : "text is \"Эл. почта\"",
+            "highlight" : [ "loginform-email-caption" ]
+          } ]
+        }, {
+          "name" : "loginform-email-input",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 53
+            },
+            "name" : "inside loginform 31px left right",
+            "highlight" : [ "loginform-email-input", "loginform" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 54
+            },
+            "name" : "centered horizontally inside loginform",
+            "highlight" : [ "loginform-email-input", "loginform" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 55
+            },
+            "name" : "below loginform-email-caption 3 to 7 px",
+            "highlight" : [ "loginform-email-input", "loginform-email-caption" ]
+          } ]
+        }, {
+          "name" : "loginform-password-caption",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 58
+            },
+            "name" : "inside loginform 31px left",
+            "highlight" : [ "loginform-password-caption", "loginform" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 59
+            },
+            "name" : "below loginform-email-input 20 to 25 px",
+            "errors" : [ "\"loginform-password-caption\" is 26px below \"loginform-email-input\" which is not in range of 20 to 25px" ],
+            "highlight" : [ "loginform-password-caption", "loginform-email-input" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 60
+            },
+            "name" : "text is \"Пароль\"",
+            "highlight" : [ "loginform-password-caption" ]
+          } ]
+        }, {
+          "name" : "loginform-password-input",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 63
+            },
+            "name" : "inside loginform 31px left right",
+            "highlight" : [ "loginform-password-input", "loginform" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 64
+            },
+            "name" : "centered horizontally inside loginform",
+            "highlight" : [ "loginform-password-input", "loginform" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 65
+            },
+            "name" : "below loginform-password-caption 3 to 7 px",
+            "highlight" : [ "loginform-password-input", "loginform-password-caption" ]
+          } ]
+        }, {
+          "name" : "loginform-button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 68
+            },
+            "name" : "inside loginform 31px left right bottom",
+            "errors" : [ "\"loginform-button\" is 33px right instead of 31px" ],
+            "highlight" : [ "loginform-button", "loginform" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 69
+            },
+            "name" : "centered horizontally inside loginform",
+            "highlight" : [ "loginform-button", "loginform" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 70
+            },
+            "name" : "text is \"Войти\"",
+            "errors" : [ "\"loginform-button\" text is \"ВОЙТИ\" but should be \"Войти\"" ],
+            "highlight" : [ "loginform-button" ]
+          } ]
+        } ]
+      }, {
+        "name" : "footer",
+        "objects" : [ {
+          "name" : "footer-detals",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 76
+            },
+            "name" : "aligned vertically left footer",
+            "highlight" : [ "footer-detals", "footer" ]
+          } ]
+        }, {
+          "name" : "footer-copyright",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/loginpage.spec",
+              "lineNumber" : 79
+            },
+            "name" : "aligned vertically right footer",
+            "errors" : [ "\"footer\" is not aligned vertically right with \"footer-copyright\". Offset is 1px" ],
+            "highlight" : [ "footer-copyright", "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "loginform" : {
+          "area" : [ 800, 116, 320, 363 ]
+        },
+        "footer" : {
+          "area" : [ 400, 885, 1120, 48 ]
+        },
+        "body" : {
+          "area" : [ 0, 0, 1920, 957 ]
+        },
+        "main-container" : {
+          "area" : [ 384, 68, 1152, 793 ]
+        },
+        "loginform-password-input" : {
+          "area" : [ 831, 317, 258, 48 ]
+        },
+        "footer-copyright" : {
+          "area" : [ 1283, 885, 236, 47 ]
+        },
+        "footer-detals" : {
+          "area" : [ 400, 885, 291, 48 ]
+        },
+        "loginform-button" : {
+          "area" : [ 831, 406, 256, 42 ]
+        },
+        "loginform-email-input" : {
+          "area" : [ 831, 221, 258, 48 ]
+        },
+        "loginform-title" : {
+          "area" : [ 831, 147, 258, 27 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 1920, 68 ]
+        },
+        "header-logo" : {
+          "area" : [ 860, 0, 200, 68 ]
+        },
+        "loginform-email-caption" : {
+          "area" : [ 831, 199, 68, 18 ]
+        },
+        "loginform-password-caption" : {
+          "area" : [ 831, 295, 54, 18 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
